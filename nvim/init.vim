@@ -1,3 +1,9 @@
+" Manual changes
+" Set terminal font to Droid sans mono slashed ...
+" Make sure character encoding to utf-8
+" Download powerline fonts https://github.com/powerline/fonts
+"
+"
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                          Plugin Settings                          "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -61,7 +67,14 @@ let g:jedi#completions_enabled = 0
 let g:jedi#use_splits_not_buffers = "right"
 
 " Visual
-let g:airline_theme='powerlineish theme'
+set encoding=utf-8
+let g:airline_theme='wombat'
+let g:airline_powerline_fonts = 1
+
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+let g:airline#extensions#tabline#formatter = 'unique_tail'
 
 " NERDtree Mapping
 nnoremap <C-t> :NERDTreeToggle<CR>
