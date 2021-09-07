@@ -33,6 +33,9 @@ call plug#end()
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                           Vim Bindings                           "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Changing the leader key
+let mapleader = ","
+
 " Remap Escape
 inoremap hh <Esc>
 
@@ -78,5 +81,6 @@ let g:airline#extensions#tabline#formatter = 'unique_tail'
 
 " NERDtree Mapping
 nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-Left> gT
 nnoremap <C-Right> gt
