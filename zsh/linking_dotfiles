@@ -2,6 +2,11 @@ cd;
 rm .tmux.conf;
 ln -s ~/dotfiles/tmux/.tmux.conf ~/.tmux.conf;
 
+cd;
 mkdir -p ${XDG_CONFIG_HOME:=$HOME/.config};
 rm -rf $XDG_CONFIG_HOME/nvim;
 ln -s ~/dotfiles/nvim $XDG_CONFIG_HOME/nvim;
+
+cd;
+rm .zshrc;
+ln -s ~/dotfiles/zsh/.zshrc ~/.zshrc
