@@ -38,6 +38,7 @@ let mapleader = ","
 
 " Remap Escape
 inoremap hh <Esc>
+inoremap qq <Esc>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                         Vim Settings                           "
