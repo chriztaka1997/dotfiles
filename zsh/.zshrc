@@ -103,11 +103,19 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias chrome="open -a Google\ Chrome"
-alias spotify="open -a Spotify"
 
+# URL variable
+export insta="instagram.com/direct/inbox"
+export manga="https://mangakakalot.com/bookmark"
 
+# Terminal alias
+alias newchrome="open -na Google\ Chrome --args --new-window" 
+alias newtab="open -na Google\ Chrome --args"
 alias back="cd .."
+alias p3="python3"
+
+# Git alias
 alias gc="git commit -m"
 alias gs="git status"
 alias ga="git add"
+alias gd="git diff"
