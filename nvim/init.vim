@@ -40,7 +40,7 @@ let mapleader = ","
 inoremap hh <Esc>
 inoremap qq <Esc>
 
-" Custom normal mode mapping
+" CUSTOM NORMAL MODE MAPPING
 " Adding empty line
 nnoremap <Enter> o<Esc>
 nnoremap <Leader>o o<Esc>
@@ -48,6 +48,10 @@ nnoremap <Leader>O O<Esc>
 
 " Delete a line
 nnoremap <BS> dd
+
+" Exiting a tab
+nnoremap <Leader>qq :q<CR>
+nnoremap <Leader>eq :q!<CR>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                         Vim Settings                           "
@@ -94,5 +98,3 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-Left> gT
 nnoremap <C-Right> gt
-nnoremap <Leader>qq :q<CR>
-nnoremap <Leader>eq :q!<CR>
