@@ -104,15 +104,13 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# Changable path
-export work="~/Documents/projects"
-
 # URL variable
 export insta="instagram.com/direct/inbox"
 export manga="https://mangakakalot.com/bookmark"
 
 # Terminal alias
-alias newchrome="open -na Google\ Chrome --args --new-window" 
+alias work="cd ~/Documents/projects/"
+alias chrome="open -na Google\ Chrome --args --new-window" 
 alias newtab="open -na Google\ Chrome --args"
 alias back="cd .."
 alias p3="python3"
