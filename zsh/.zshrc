@@ -109,7 +109,6 @@ export insta="instagram.com/direct/inbox"
 export manga="https://mangakakalot.com/bookmark"
 
 # Terminal alias
-alias work="cd ~/Documents/projects/"
 alias chrome="open -na Google\ Chrome --args --new-window" 
 alias newtab="open -na Google\ Chrome --args"
 alias back="cd .."
@@ -118,7 +117,10 @@ alias lsa="ls -a"
 alias lsl="ls -l"
 alias lsal="ls -al"
 
-# Git alias
+# Shortcut
+source ~/dotfiles/zsh/shortcut.sh
+
+# Git aliases
 alias gc="git commit -m"
 alias gs="git status"
 alias ga="git add"
