@@ -114,6 +114,7 @@ alias newtab="open -na Google\ Chrome --args"
 alias back="cd .."
 alias p3="python3"
 alias lsa="ls -a"
+alias lsl="ls -l"
 alias lsal="ls -al"
 
 # Git alias
