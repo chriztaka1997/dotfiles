@@ -104,6 +104,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Shortcut
+source ~/dotfiles/zsh/shortcut.sh
+
 # URL variable
 export insta="instagram.com/direct/inbox"
 export manga="https://mangakakalot.com/bookmark"
@@ -116,9 +119,6 @@ alias p3="python3"
 alias lsa="ls -a"
 alias lsl="ls -l"
 alias lsal="ls -al"
-
-# Shortcut
-source ~/dotfiles/zsh/shortcut.sh
 
 # Git aliases
 alias gc="git commit -m"
