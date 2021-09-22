@@ -113,6 +113,8 @@ alias newchrome="open -na Google\ Chrome --args --new-window"
 alias newtab="open -na Google\ Chrome --args"
 alias back="cd .."
 alias p3="python3"
+alias lsa="ls -a"
+alias lsal="ls -al"
 
 # Git alias
 alias gc="git commit -m"
