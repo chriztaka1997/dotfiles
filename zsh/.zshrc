@@ -104,6 +104,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Changable path
+export work="~/Documents/projects"
+
 # URL variable
 export insta="instagram.com/direct/inbox"
 export manga="https://mangakakalot.com/bookmark"
