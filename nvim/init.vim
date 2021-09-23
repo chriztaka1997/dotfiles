@@ -59,6 +59,11 @@ nnoremap <Leader>eq :q!<CR>
 " Tab management
 set splitbelow
 
+" One tab is equal to 4 space
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+
 " Syntax Highlighting
 syntax on
 
