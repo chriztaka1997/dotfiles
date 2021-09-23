@@ -10,14 +10,20 @@ work() {
 	tmux;
 }
 
+dotfolder() {
+	cd ~/dotfiles/;
+	tmux;
+}
+
 # URL variable
-export insta="instagram.com/direct/inbox"
-export manga="https://mangakakalot.com/bookmark"
-export youtube="youtube.com"
+instagram="instagram.com/direct/inbox"
+mangakakalot="https://mangakakalot.com/bookmark"
+yt="youtube.com"
+google="https://www.google.com/"
 
 # Chrome shortcut
 alias chrome="open -na Google\ Chrome --args --new-window"
-alias newtab="open -na Google\ Chrome --args"
-alias insta="chrome $insta"
-alias manga="chrome $manga"
-alias youtube="chrome $youtube"
+alias search="chrome $google"
+alias insta="chrome $instagram"
+alias manga="chrome $mangakakalot"
+alias youtube="chrome $yt"

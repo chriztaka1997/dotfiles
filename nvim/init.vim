@@ -47,7 +47,7 @@ nnoremap <Leader>o o<Esc>
 nnoremap <Leader>O O<Esc>
 
 " Delete a line
-nnoremap <BS> dd
+nnoremap <BS> ddk$
 
 " Exiting a tab
 nnoremap <Leader>qq :q<CR>
