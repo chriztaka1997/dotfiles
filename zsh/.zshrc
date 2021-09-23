@@ -107,18 +107,13 @@ source $ZSH/oh-my-zsh.sh
 # Shortcut
 source ~/dotfiles/zsh/shortcut.sh
 
-# URL variable
-export insta="instagram.com/direct/inbox"
-export manga="https://mangakakalot.com/bookmark"
-
 # Terminal alias
-alias chrome="open -na Google\ Chrome --args --new-window" 
-alias newtab="open -na Google\ Chrome --args"
 alias back="cd .."
 alias p3="python3"
 alias lsa="ls -a"
 alias lsl="ls -l"
 alias lsal="ls -al"
+
 
 # Git aliases
 alias gc="git commit -m"
