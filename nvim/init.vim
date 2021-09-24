@@ -53,11 +53,23 @@ nnoremap <BS> ddk$
 nnoremap <Leader>qq :q<CR>
 nnoremap <Leader>eq :q!<CR>
 
+" CUSTOM VISUAL MODE MAPPING
+" Copy to clipboard
+vnoremap <Leader>y "*y
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                         Vim Settings                           "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Tab management
 set splitbelow
+
+" case insensitive
+set ignorecase
+set smartcase
+
+" Syntax highlight
+syntax on
+filetype plugin indent on
 
 " One tab is equal to 4 space
 set tabstop=4
