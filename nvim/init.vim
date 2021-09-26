@@ -40,6 +40,10 @@ let mapleader = ","
 inoremap hh <Esc>
 inoremap qq <Esc>
 
+" Locally set spell checking
+nnoremap <Leader>s :set spell spelllang=en_us<CR>
+nnoremap <Leader>ss :set nospell<CR>
+
 " CUSTOM NORMAL MODE MAPPING
 " Adding empty line
 nnoremap <Enter> o<Esc>
