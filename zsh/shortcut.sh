@@ -31,3 +31,6 @@ alias manga="chrome $mangakakalot"
 alias youtube="chrome $yt"
 alias github="chrome $gith"
 alias gmeet="chrome $meet"
+
+# Application shortcut
+alias vscode="open -a Visual\ Studio\ Code"
