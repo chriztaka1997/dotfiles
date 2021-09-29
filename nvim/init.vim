@@ -57,6 +57,9 @@ nnoremap <BS> dd
 nnoremap <Leader>qq :q<CR>
 nnoremap <Leader>eq :q!<CR>
 
+" Replace word
+nnoremap <Leader>r :%s/
+
 " CUSTOM VISUAL MODE MAPPING
 " Copy to clipboard
 vnoremap <Leader>y "*y
