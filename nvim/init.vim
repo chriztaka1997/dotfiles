@@ -60,6 +60,9 @@ nnoremap <Leader>eq :q!<CR>
 " Replace word
 nnoremap <Leader>r :%s/
 
+" cancel search
+nnoremap <Leader>/ :noh<CR>
+
 " CUSTOM VISUAL MODE MAPPING
 " Copy to clipboard
 vnoremap <Leader>y "*y

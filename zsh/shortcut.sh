@@ -10,6 +10,11 @@ work() {
 	tmux;
 }
 
+study() {
+	cd ~/Documents/projects/Web_Dev_Training/;
+	tmux;
+}
+
 dotfolder() {
 	cd ~/dotfiles/;
 	tmux;
