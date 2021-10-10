@@ -66,6 +66,8 @@ nnoremap <Leader>/ :noh<CR>
 " CUSTOM VISUAL MODE MAPPING
 " Copy to clipboard
 vnoremap <Leader>y "*y
+vnoremap $ $h
+vnoremap a <Esc>$
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                         Vim Settings                           "
