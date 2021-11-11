@@ -14,6 +14,9 @@ call plug#begin()
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
+" Markdown
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+
 " Utilities
 Plug 'scrooloose/nerdtree'
 
@@ -39,6 +42,9 @@ let mapleader = ","
 " Remap Escape
 inoremap hh <Esc>
 inoremap qq <Esc>
+
+" saving
+inoremap <Leader>s <Esc>:w<CR>
 
 " Locally set spell checking
 nnoremap <Leader>s :set spell spelllang=en_us<CR>
