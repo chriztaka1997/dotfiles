@@ -121,3 +121,7 @@ alias gc="git commit -m"
 alias gs="git status"
 alias ga="git add"
 alias gd="git diff"
+
+# Mongo aliases
+alias mstart="brew services start mongodb-community@5.0"
+alias mstop="brew services stop mongodb-community@5.0"
