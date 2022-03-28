@@ -105,6 +105,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+#Exports
+export PATH=${PATH}:/usr/local/mysql/bin/
+
 # Shortcut
 source ~/dotfiles/zsh/shortcut.sh
 
@@ -121,6 +124,8 @@ alias gc="git commit -m"
 alias gs="git status"
 alias ga="git add"
 alias gd="git diff"
+alias gch="git checkout"
+alias gv=" git log --oneline --graph --color --all --decorate"
 
 # Mongo aliases
 alias mstart="brew services start mongodb-community@5.0"

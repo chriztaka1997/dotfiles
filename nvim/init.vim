@@ -60,8 +60,8 @@ nnoremap <Leader>O O<Esc>
 nnoremap <BS> dd
 
 " Exiting a tab
-nnoremap <Leader>qq :q<CR>
-nnoremap <Leader>eq :q!<CR>
+nnoremap <Leader>qq :q!<CR>
+nnoremap <Leader>wq :wq<CR>
 
 " Replace word
 nnoremap <Leader>r :%s/
